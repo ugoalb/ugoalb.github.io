@@ -1,0 +1,145 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 15.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:REQUEST
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:SA Pacific Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0500
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+ATTENDEE;CN="Cesar Fernando Nuñez Florez";RSVP=TRUE:mailto:cesnun@eltiempo
+	.com
+CLASS:PUBLIC
+CREATED:20210528T140044Z
+DESCRIPTION: \n\n\nHemos aplicado la arquitectura de microservicios. Los se
+	rvicios a veces colaboran cuando se gestionan las solicitudes. Cuando un s
+	ervicio invoca sincrónicamente a otro\, siempre existe la posibilidad de 
+	que el otro servicio no esté disponible o presente una latencia tan alta 
+	que lo haga básicamente inutilizable. El servicio que invoca puede consum
+	ir recursos valiosos como hilos y conexiones mientras espera que el otro s
+	ervicio responda. Esto podría llevar al agotamiento de los recursos\, lo 
+	que haría que el servicio que invoca no pudiera manejar otras solicitudes
+	. \n\nFernando nos mostrará como el patrón “Circuit Breaker” nos ayu
+	da a mejorar la confiabilidad evitando que la falla de un servicio pueda p
+	otencialmente afectar a otros servicios en toda la aplicación. \n\n\n____
+	__________________________________________________________________________
+	__ \nReunión de Microsoft Teams \nÚnase desde su equipo o aplicación m
+	óvil \nHaga clic aquí para unirse a la reunión <https://teams.microsoft
+	.com/l/meetup-join/19%3ameeting_MDc0MzIzMWYtMDMyYi00ZGU3LWI1ZGMtMjcyYWNiOT
+	QxNzRj%40thread.v2/0?context=%7b%22Tid%22%3a%2265e58d99-1780-4e5b-a682-0f4
+	7c4733f84%22%2c%22Oid%22%3a%2229c5f43e-a3f5-4b4d-a7d6-c90cf230c7fc%22%7d> 
+	 \nInfórmese <https://aka.ms/JoinTeamsMeeting>  | Opciones de reunión <h
+	ttps://teams.microsoft.com/meetingOptions/?organizerId=29c5f43e-a3f5-4b4d-
+	a7d6-c90cf230c7fc&tenantId=65e58d99-1780-4e5b-a682-0f47c4733f84&threadId=1
+	9_meeting_MDc0MzIzMWYtMDMyYi00ZGU3LWI1ZGMtMjcyYWNiOTQxNzRj@thread.v2&messa
+	geId=0&language=es-ES>  \n________________________________________________
+	________________________________ \n\n
+DTEND;TZID="SA Pacific Standard Time":20210610T170000
+DTSTAMP:20210528T135924Z
+DTSTART;TZID="SA Pacific Standard Time":20210610T160000
+LAST-MODIFIED:20210528T140044Z
+LOCATION:Reunión de Microsoft Teams
+ORGANIZER;CN="Ugo Albarello Lopez De Mesa":mailto:ugoalb@eltiempo.com
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=es-co:Hablemos de Patrones: Circuit Breaker
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E0080000000050BC4DCB9953D701000000000000000
+	0100000004FB862EA4E110E41A3842E548B80EC02
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+	N">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Server ve
+	rsion rmj.rmm.rup.rpr">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted 
+	from text/rtf format -->\n\n<P DIR=LTR><SPAN LANG="es-co"></SPAN><SPAN LAN
+	G="es-co"><FONT FACE="Calibri"></FONT></SPAN><SPAN LANG="es-co">&nbsp\;</S
+	PAN></P>\n\n<P DIR=LTR><SPAN LANG="es-co"></SPAN><SPAN LANG="es-co"></SPAN
+	></P>\n\n<P DIR=LTR><SPAN LANG="es-co"><FONT FACE="Calibri">H</FONT></SPAN
+	><SPAN LANG="es-co"><FONT FACE="Calibri">emos</FONT></SPAN><SPAN LANG="es-
+	co"><FONT FACE="Calibri"> aplicado la arquitectura de microservicio</FONT>
+	</SPAN><SPAN LANG="es-co"><FONT FACE="Calibri">s</FONT></SPAN><SPAN LANG="
+	es-co"><FONT FACE="Calibri">. Los servicios a veces colaboran cuando se ge
+	stionan las solicitudes. Cuando un servicio invoca sincrónicamente a otro
+	\, siempre existe la posibilidad de que el otro servicio no esté disponib
+	le o presente una latencia tan alta que</FONT></SPAN><SPAN LANG="es-co"> <
+	FONT FACE="Calibri">lo haga básicamente</FONT></SPAN><SPAN LANG="es-co"><
+	FONT FACE="Calibri"> inutilizable.</FONT></SPAN><SPAN LANG="es-co"> <FONT 
+	FACE="Calibri">El servicio que invoca</FONT></SPAN><SPAN LANG="es-co"> <FO
+	NT FACE="Calibri">puede consumir recursos valiosos como</FONT></SPAN><SPAN
+	 LANG="es-co"> <FONT FACE="Calibri">hilos y conexiones</FONT></SPAN><SPAN 
+	LANG="es-co"><FONT FACE="Calibri"> mientras espera que el otro servicio re
+	sponda. Esto podría llevar al agotamiento de los recursos\, lo que haría
+	 que el servicio</FONT></SPAN><SPAN LANG="es-co"> <FONT FACE="Calibri">que
+	 invoca</FONT></SPAN><SPAN LANG="es-co"><FONT FACE="Calibri"> no pudiera m
+	anejar otras solicitudes.</FONT></SPAN><SPAN LANG="es-co"> </SPAN></P>\n\n
+	<P DIR=LTR><SPAN LANG="es-co"></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="es-co"
+	><FONT FACE="Calibri">Fernando nos mostrará como e</FONT></SPAN><SPAN LAN
+	G="es-co"><FONT FACE="Calibri">l patrón</FONT></SPAN><SPAN LANG="es-co"> 
+	<FONT FACE="Calibri">“</FONT></SPAN><SPAN LANG="es-co"><FONT FACE="Calib
+	ri">Circuit Breaker</FONT></SPAN><SPAN LANG="es-co"><FONT FACE="Calibri">
+	”</FONT></SPAN><SPAN LANG="es-co"><FONT FACE="Calibri"></FONT></SPAN><SP
+	AN LANG="es-co"> <FONT FACE="Calibri">nos ayuda a mejorar la confiabilidad
+	</FONT></SPAN><SPAN LANG="es-co"> <FONT FACE="Calibri">evitando que l</FON
+	T></SPAN><SPAN LANG="es-co"><FONT FACE="Calibri">a falla de un servicio pu
+	ed</FONT></SPAN><SPAN LANG="es-co"><FONT FACE="Calibri">a</FONT></SPAN><SP
+	AN LANG="es-co"><FONT FACE="Calibri"> potencialmente afectar a otros servi
+	cios en toda la aplicación</FONT></SPAN><SPAN LANG="es-co"><FONT FACE="Ca
+	libri">.</FONT></SPAN><SPAN LANG="es-co"><FONT FACE="Calibri"></FONT></SPA
+	N><SPAN LANG="es-co"> </SPAN></P>\n\n<P DIR=LTR><SPAN LANG="es-co"></SPAN>
+	</P>\n\n<P DIR=LTR><SPAN LANG="es-co"></SPAN></P>\n\n<P DIR=LTR><SPAN LANG
+	="es-co"><FONT COLOR="#5F5F5F" FACE="Calibri">____________________________
+	___________________________________________________</FONT></SPAN><SPAN LAN
+	G="es-co"><FONT COLOR="#5F5F5F" FACE="Calibri">_</FONT></SPAN><SPAN LANG="
+	es-co"><FONT FACE="Calibri"></FONT></SPAN><SPAN LANG="es-co"></SPAN><SPAN 
+	LANG="es-co"> </SPAN></P>\n\n<P DIR=LTR><SPAN LANG="es-co"></SPAN><SPAN LA
+	NG="es-co"></SPAN><SPAN LANG="es-co"><FONT COLOR="#252424" SIZE=5 FACE="Se
+	goe UI">Reunión de Microsoft Teams</FONT></SPAN><SPAN LANG="es-co"></SPAN
+	><SPAN LANG="es-co"><FONT COLOR="#252424" FACE="Segoe UI"> </FONT></SPAN><
+	/P>\n\n<P DIR=LTR><SPAN LANG="es-co"><B></B></SPAN><SPAN LANG="es-co"><B><
+	/B></SPAN><SPAN LANG="es-co"><B><FONT COLOR="#252424" FACE="Segoe UI">Úna
+	se desde su equipo o aplicación móvil</FONT></B></SPAN><SPAN LANG="es-co
+	"><B></B></SPAN><SPAN LANG="es-co"><B><FONT COLOR="#252424" FACE="Segoe UI
+	"> </FONT></B></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="es-co"></SPAN><A HREF=
+	"https://teams.microsoft.com/l/meetup-join/19%3ameeting_MDc0MzIzMWYtMDMyYi
+	00ZGU3LWI1ZGMtMjcyYWNiOTQxNzRj%40thread.v2/0?context=%7b%22Tid%22%3a%2265e
+	58d99-1780-4e5b-a682-0f47c4733f84%22%2c%22Oid%22%3a%2229c5f43e-a3f5-4b4d-a
+	7d6-c90cf230c7fc%22%7d"><SPAN LANG="es-co"></SPAN><SPAN LANG="es-co"></SPA
+	N><SPAN LANG="es-co"><U><FONT COLOR="#6264A7" FACE="Segoe UI Semibold">Hag
+	a clic aquí para unirse a la reunión</FONT></U></SPAN><SPAN LANG="es-co"
+	></SPAN></A><SPAN LANG="es-co"></SPAN><SPAN LANG="es-co"><FONT COLOR="#252
+	424" FACE="Segoe UI"> </FONT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="es-co">
+	</SPAN><A HREF="https://aka.ms/JoinTeamsMeeting"><SPAN LANG="es-co"></SPAN
+	><SPAN LANG="es-co"></SPAN><SPAN LANG="es-co"><U><FONT COLOR="#6264A7" FAC
+	E="Segoe UI">Infórmese</FONT></U></SPAN><SPAN LANG="es-co"></SPAN></A><SP
+	AN LANG="es-co"></SPAN><SPAN LANG="es-co"><FONT COLOR="#252424" FACE="Sego
+	e UI"> |</FONT></SPAN><SPAN LANG="es-co"> </SPAN><A HREF="https://teams.mi
+	crosoft.com/meetingOptions/?organizerId=29c5f43e-a3f5-4b4d-a7d6-c90cf230c7
+	fc&amp\;tenantId=65e58d99-1780-4e5b-a682-0f47c4733f84&amp\;threadId=19_mee
+	ting_MDc0MzIzMWYtMDMyYi00ZGU3LWI1ZGMtMjcyYWNiOTQxNzRj@thread.v2&amp\;messa
+	geId=0&amp\;language=es-ES"><SPAN LANG="es-co"></SPAN><SPAN LANG="es-co"><
+	/SPAN><SPAN LANG="es-co"><U><FONT COLOR="#6264A7" FACE="Segoe UI">Opciones
+	 de reunión</FONT></U></SPAN><SPAN LANG="es-co"></SPAN></A><SPAN LANG="es
+	-co"></SPAN><SPAN LANG="es-co"><FONT COLOR="#252424" FACE="Segoe UI"></FON
+	T></SPAN><SPAN LANG="es-co"></SPAN><SPAN LANG="es-co"> </SPAN></P>\n\n<P D
+	IR=LTR><SPAN LANG="es-co"><FONT COLOR="#5F5F5F" FACE="Calibri">___________
+	____________________________________________________________________</FONT
+	></SPAN><SPAN LANG="es-co"><FONT COLOR="#5F5F5F" FACE="Calibri">_</FONT></
+	SPAN><SPAN LANG="es-co"><FONT FACE="Calibri"></FONT></SPAN><SPAN LANG="es-
+	co"></SPAN><SPAN LANG="es-co"> </SPAN></P>\n\n<P DIR=LTR><SPAN LANG="es-co
+	"></SPAN></P>\n\n</BODY>\n</HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-APPTSEQTIME:20210528T135924Z
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
